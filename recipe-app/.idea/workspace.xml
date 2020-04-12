@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a2a3ea1-e232-4185-93f6-cb442ec4d4fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/repositories/UnitOfMeasureRepositoryIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/recipe-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/recipe-app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/services/RecipeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/services/RecipeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/services/RecipeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/services/RecipeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/controllers/IndexControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/controllers/IndexControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/recipe-app.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/recipe-app.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/domain/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/domain/CategoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/repositories/UnitOfMeasureRepositoryIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/repositories/UnitOfMeasureRepositoryIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/services/RecipeServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/services/RecipeServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/services/RecipeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/services/RecipeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/services/RecipeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/services/RecipeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/guru/springframework/controllers/IndexControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guru/springframework/controllers/IndexControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/guru/springframework/domain/CategoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guru/springframework/domain/CategoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/guru/springframework/services/RecipeServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guru/springframework/services/RecipeServiceImplTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +92,7 @@
       <recent name="com.sunil.recipeapp.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UnitOfMeasureRepositoryIT.findByDescription">
+  <component name="RunManager" selected="Spring Boot.Spring5RecipeAppApplication">
     <configuration name="All in recipe-app" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="recipe-app" />
       <option name="PACKAGE_NAME" value="" />
@@ -121,17 +133,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecipeServiceImplTest.getRecipes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RecipeControllerTest.testGetRecipe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="recipe-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="guru.springframework.services.*" />
+          <option name="PATTERN" value="guru.springframework.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="guru.springframework.services" />
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.services.RecipeServiceImplTest" />
-      <option name="METHOD_NAME" value="getRecipes" />
+      <option name="PACKAGE_NAME" value="guru.springframework.controllers" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.controllers.RecipeControllerTest" />
+      <option name="METHOD_NAME" value="testGetRecipe" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,17 +175,28 @@
     <configuration name="Spring5RecipeAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="recipe-app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.Spring5RecipeAppApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.All in recipe-app" />
+      <item itemvalue="JUnit.IndexControllerTest.getIndexPage" />
+      <item itemvalue="JUnit.IndexControllerTest.TestMockMVC" />
+      <item itemvalue="JUnit.RecipeControllerTest.testGetRecipe" />
+      <item itemvalue="JUnit.UnitOfMeasureRepositoryIT.findByDescription" />
+      <item itemvalue="Spring Boot.RecipeAppApplication" />
+      <item itemvalue="Spring Boot.Spring5RecipeAppApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RecipeControllerTest.testGetRecipe" />
         <item itemvalue="JUnit.UnitOfMeasureRepositoryIT.findByDescription" />
         <item itemvalue="JUnit.IndexControllerTest.TestMockMVC" />
         <item itemvalue="JUnit.All in recipe-app" />
         <item itemvalue="JUnit.IndexControllerTest.getIndexPage" />
-        <item itemvalue="JUnit.RecipeServiceImplTest.getRecipes" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +229,8 @@
       <workItem from="1586494310489" duration="1461000" />
       <workItem from="1586548191355" duration="1885000" />
       <workItem from="1586629117728" duration="842000" />
-      <workItem from="1586629984886" duration="9175000" />
+      <workItem from="1586629984886" duration="11647000" />
+      <workItem from="1586717130335" duration="2902000" />
     </task>
     <task id="LOCAL-00001" summary="first commit for the recipe application and using the hibernate and jpa">
       <created>1586486073004</created>
@@ -236,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586662039827</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added a surfire plugin that will use the integration test">
+      <created>1586665109361</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586665109361</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,13 +278,14 @@
     <MESSAGE value="added the model objects" />
     <MESSAGE value="added the hibernate annotations and many to many relationships" />
     <MESSAGE value="added some test methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some test methods" />
+    <MESSAGE value="added a surfire plugin that will use the integration test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a surfire plugin that will use the integration test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="88" width="1092" height="687" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586493172850">
+    <state x="223" y="88" width="1092" height="687" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586716913319">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="223" y="88" width="1092" height="687" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1586493172850" />
+    <state x="223" y="88" width="1092" height="687" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1586716913319" />
     <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1586493790617">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -262,42 +294,42 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="618" y="322" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.864@0.0.1536.864" timestamp="1586630079758" />
-    <state x="346" y="28" key="CommitChangelistDialog2" timestamp="1586662038210">
+    <state x="346" y="28" key="CommitChangelistDialog2" timestamp="1586665108460">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="346" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1586662038210" />
-    <state width="1492" height="168" key="GridCell.Tab.0.bottom" timestamp="1586665056110">
+    <state x="346" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1586665108460" />
+    <state width="1492" height="163" key="GridCell.Tab.0.bottom" timestamp="1586717093775">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="168" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586665056110" />
-    <state width="1492" height="168" key="GridCell.Tab.0.center" timestamp="1586665056110">
+    <state width="1492" height="163" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586717093775" />
+    <state width="1492" height="163" key="GridCell.Tab.0.center" timestamp="1586717093775">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="168" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1586665056110" />
-    <state width="1492" height="168" key="GridCell.Tab.0.left" timestamp="1586665056110">
+    <state width="1492" height="163" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1586717093775" />
+    <state width="1492" height="163" key="GridCell.Tab.0.left" timestamp="1586717093775">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="168" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1586665056110" />
-    <state width="1492" height="168" key="GridCell.Tab.0.right" timestamp="1586665056110">
+    <state width="1492" height="163" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1586717093775" />
+    <state width="1492" height="163" key="GridCell.Tab.0.right" timestamp="1586717093775">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="168" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1586665056110" />
-    <state width="1492" height="90" key="GridCell.Tab.1.bottom" timestamp="1586653602171">
+    <state width="1492" height="163" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1586717093775" />
+    <state width="1492" height="163" key="GridCell.Tab.1.bottom" timestamp="1586717093775">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="90" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586653602171" />
-    <state width="1492" height="90" key="GridCell.Tab.1.center" timestamp="1586653602170">
+    <state width="1492" height="163" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586717093775" />
+    <state width="1492" height="163" key="GridCell.Tab.1.center" timestamp="1586717093775">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="90" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1586653602170" />
-    <state width="1492" height="90" key="GridCell.Tab.1.left" timestamp="1586653602170">
+    <state width="1492" height="163" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1586717093775" />
+    <state width="1492" height="163" key="GridCell.Tab.1.left" timestamp="1586717093775">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="90" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1586653602170" />
-    <state width="1492" height="90" key="GridCell.Tab.1.right" timestamp="1586653602170">
+    <state width="1492" height="163" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1586717093775" />
+    <state width="1492" height="163" key="GridCell.Tab.1.right" timestamp="1586717093775">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="90" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1586653602170" />
+    <state width="1492" height="163" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1586717093775" />
     <state x="379" y="99" key="Registry" timestamp="1586495492413">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -306,14 +338,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="76" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1586656994130" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1586662056889">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1586665111413">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1586662056889" />
-    <state x="465" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1586629987519">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1586665111413" />
+    <state x="465" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1586717133093">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="465" y="258" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1586629987519" />
+    <state x="465" y="258" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1586717133093" />
     <state x="540" y="136" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586664085029">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
